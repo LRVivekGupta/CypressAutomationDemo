@@ -1,24 +1,16 @@
 {
-    "compileOnSave": false,
-    "buildOnSave": false,
-    "compilerOptions": {
-      "baseUrl": "./cypress/",
-      "sourceMap": true,
-      "target": "es5",
-      "module": "commonjs",
-      "strict": true,
-      "noUnusedParameters": false,
-      "moduleResolution": "node",
-      "skipLibCheck": true,
-      "types": [
-          "cypress",
-          "node"
-    ],
-      "lib": [
-        "es6",
-        "dom",
-        "es2017"
-      ],
-      
-    },
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./cypress/",
+    "sourceMap": true,
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "noUnusedParameters": false,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "types": ["cypress", "node"],
+    "lib": ["es6", "dom", "es2017"]
   }
+}
