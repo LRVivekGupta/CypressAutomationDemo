@@ -8,7 +8,7 @@ import {
 } from "../../helpers/watchDemo";
 import { clickButton } from "../../common/uiControlHelper";
 
-describe("Watch Demo Test", () => {
+describe("Verify user is able to fill Watch Demo Form", () => {
   beforeEach(() => {
     cy.visit(logrhythmXMUrl);
   });

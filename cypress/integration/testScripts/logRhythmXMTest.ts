@@ -3,7 +3,7 @@ import { logrhythmXMUrl } from "../../common/urls";
 import locators from "../../common/locators";
 import { validateText } from "../../common/uiControlHelper";
 
-describe("Verify headers on LogRhythm XM gage ", () => {
+describe("Verify headers on LogRhythm XM Page ", () => {
   beforeEach(() => {
     cy.visit(logrhythmXMUrl);
   });
