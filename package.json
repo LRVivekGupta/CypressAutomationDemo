@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@bahmutov/add-typescript-to-cypress": "^2.0.0",
     "@types/node": "^10.12.18",
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
